@@ -119,6 +119,11 @@ namespace DotnetBucket.AutoUpdater
             }
             var x64 = filesInfo.Files.GetFile("win-x64");
             var x86 = filesInfo.Files.GetFile("win-x86");
+
+            if (x64 == null || x86 == null)
+            {
+                return null;
+            }
             
             var app = new ScoopApp
             {
@@ -152,7 +157,7 @@ namespace DotnetBucket.AutoUpdater
 
         private static DotnetFile GetFile(this IEnumerable<DotnetFile> files, string rid)
         {
-            return files.Where(x => x.Rid != null).FirstOrDefault(x => x.Rid.Equals(rid));
+            return files.Where(x => x.Rid != null).FirstOrDefault(x => x.Rid.Equals(rid) && x.Name.Contains("zip"));
         }
     }
 }

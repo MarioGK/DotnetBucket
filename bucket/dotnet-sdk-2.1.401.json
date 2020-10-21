@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.microsoft.com/download/E/8/A/E8AF2EE0-5DDA-4420-A395-D1A50EEFD83E/dotnet-sdk-2.1.401-win-x64.exe",
-      "hash": "cedf1e992a025c9e8887aa36e6c0b920ec9d2482fba3068505a110e7e7bfda603ca0e2675089b46c25c04e9d85c0a74dd35e5f42adbfb4f4848318c48f93031b"
+      "url": "https://download.microsoft.com/download/E/8/A/E8AF2EE0-5DDA-4420-A395-D1A50EEFD83E/dotnet-sdk-2.1.401-win-x64.zip",
+      "hash": "7d017487c1a11ae4db862b1efa7ba9beb0eabcf5d2467bc4055aa2227a548663a596682ff4adba4688930b22472587f29b83bce9f689efc5e9f4e37f7edda000"
     },
     "32bit": {
-      "url": "https://download.microsoft.com/download/E/8/A/E8AF2EE0-5DDA-4420-A395-D1A50EEFD83E/dotnet-sdk-2.1.401-win-gs-x86.exe",
-      "hash": "2e41720a7a055a12e23bd638f550b791f9919ad1eb0ca966060a8bb16b0ef018a8f1d052da10cf276c24998cce476be49be9f17f475325e7d09433a837db0f82"
+      "url": "https://download.microsoft.com/download/E/8/A/E8AF2EE0-5DDA-4420-A395-D1A50EEFD83E/dotnet-sdk-2.1.401-win-x86.zip",
+      "hash": "d3b5c9d071ba5e083feaa4507c60d99d3d10f8a01b69263ef1f05ae0ebe973a576a94a20fafd8455f7aba2f9feedaba671775586e9c553e1811e2cf32d477321"
     }
   },
   "extract_to": "F:\\test"

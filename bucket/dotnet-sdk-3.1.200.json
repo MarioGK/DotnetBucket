@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/43660ad4-b4a5-449f-8275-a1a3fd51a8f7/a51eff00a30b77eae4e960242f10ed39/dotnet-sdk-3.1.200-win-x64.exe",
-      "hash": "0c2793fa4e334068c81329ccd0b3e8005fb527014aca7e174bf1887eb4097f58cc1df2a91d6c3b2f73e8bf0bd1f4f1acc68a4e85ab5f0e1e085d8f2dea4c7af8"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/ac85ccb0-e761-489f-b5dd-ba5e52735c2b/dd89fcc72092ff6fc7f5f4cb9eea0de4/dotnet-sdk-3.1.200-win-x64.zip",
+      "hash": "689c58b5cf8b8d3596708e7007ecd6bb0847d498e01e20af9f6b1599ad8588e2115d80bc5763275341be7d9312a993d165dde0a4758ca4b6b755f1fcd0b0ac81"
     },
     "32bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/05b7bc3e-69b2-4226-ad11-db472130e6e8/50e04d3ed87cde4a7aa2d591051bfafb/dotnet-sdk-3.1.200-win-x86.exe",
-      "hash": "952e0f044b5d78757f9441d686b08f84ff330c305f26daed2c00cab393d335c835c6f65c1bee88044a7500d3320da6321897687affc617ca805d8ee482c17c18"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/cc20e4db-6503-4e2b-8079-180a2f2337a5/1ac3552de7b83fba030496920de3b584/dotnet-sdk-3.1.200-win-x86.zip",
+      "hash": "da239241efc2ffcbfca2343619cc5f11f65a64cdc79f1ed0a13e55c46913e0baf96a435502c15ef9da9f2cf5b068b702d04d53d6ff168583cad80628c04fcea0"
     }
   },
   "extract_to": "F:\\test"

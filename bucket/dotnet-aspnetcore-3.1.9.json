@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/87bcc889-4afa-4c88-839c-d72497b84407/42105fc6c95feb5faa64b2be1b76a830/aspnetcore-runtime-3.1.9-win-x64.exe",
-      "hash": "3acb793699ff89412029d1d0050242cf5e11c07f111bcf4c620f0bd7765571cc791737fce0070b934afc78fb6097b9aa8d6e0124e227f546605c056a2503de2c"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/acdf7879-d422-4195-90a1-1f4a6e8550da/e75bde72d8790d478a698ad40f390b3e/aspnetcore-runtime-3.1.9-win-x64.zip",
+      "hash": "a165e61234cea95440383a36fe3bc826af1057f3a987d815667b0157d4cde2a4ac5bcbd6d905dda3ce57259b26619f592b84ae15089b0db7bf5d258225537c86"
     },
     "32bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/5d18182f-178e-4734-a83e-803d65ce6353/445ae43d1955e368b35df7c8a884cb54/aspnetcore-runtime-3.1.9-win-x86.exe",
-      "hash": "9011aca9fcaf15e797f950187d1798a099f0db93872ab5abc0b8832764a531c98fef7a7015dfa011ced8ff1156eddd16025f669e15a41a0b8713379a945c0bcc"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/8a1f6e8f-eeef-4566-be27-28a870f3f3fb/1496eb9467f1e4091cd904035e96b514/aspnetcore-runtime-3.1.9-win-x86.zip",
+      "hash": "ee2fdf7be2bce12486aae7b329469c1654290da2d443526c8178f0cdc72396b2e0a7e98ca59cff3b8e26c2f6c6175acae3ef76cc6011b6ef3e4efb3fd934436e"
     }
   },
   "extract_to": "F:\\test"

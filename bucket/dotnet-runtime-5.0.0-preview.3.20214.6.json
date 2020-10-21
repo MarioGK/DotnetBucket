@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/138d840f-5583-4f3d-bd79-05f0ff719cc9/5cfa84f529bf0227427beda07c74d7f7/dotnet-runtime-5.0.0-preview.3.20214.6-win-x64.exe",
-      "hash": "7f9fd0452ef178f6df58e5de619dad7effbfd1985acc4fc6dd718bb26c228dd1df999af2482d80a925fd84e8f22f6f74a38f0d1c801c8417255abd766438d3c8"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/bbd5a03c-0a4e-4530-947f-eb4f44eb30f4/34f0574dbe0525a1073e4b7c83c340bb/dotnet-runtime-5.0.0-preview.3.20214.6-win-x64.zip",
+      "hash": "d7660d441063e6eb2a289e9953d9102742efc88d1de73ede25cce0df687b02b9db2b89e61423c5fa90902b2d001e1e81b3ebabaad69815049a2641ba7b36b6dd"
     },
     "32bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/020c789e-510a-4c61-8614-18f48272cc89/097461f8baa43cc90d1507460cb75ed0/dotnet-runtime-5.0.0-preview.3.20214.6-win-x86.exe",
-      "hash": "72d90cb5a1317e1a9f939f5341fc396368a99c528074d689cdcb6082a60323663ce59f4840f47c94641ce8184195135ca81f2ee6bcad83b34c601fc3b101f1a9"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/8d0c54d3-f87b-42f8-904e-ac7a093f3a00/677c2cc203a451eb31cf8a461440c428/dotnet-runtime-5.0.0-preview.3.20214.6-win-x86.zip",
+      "hash": "fdc8c090bf98f481e28d34f0ee0b61400e65f3ec1c1b56fb5d7105e0d500ead7e6afbd34cc0da7682ffcba2c9c5bf2137c9b212543a4688a28de593878924aaa"
     }
   },
   "extract_to": "F:\\test"

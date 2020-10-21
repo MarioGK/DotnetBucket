@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.microsoft.com/download/A/7/8/A78F1D25-8D5C-4411-B544-C7D527296D5E/dotnet-runtime-2.1.4-win-x64.exe",
-      "hash": "2812c23e0fc89dd7cfdc972fc99b867ba1883d9a1a921659371f346d1efc7638205cd22e372d78cc3250c3878d6a764002177f14a6200adc70c4b61e322bd47f"
+      "url": "https://download.microsoft.com/download/A/7/8/A78F1D25-8D5C-4411-B544-C7D527296D5E/dotnet-runtime-2.1.4-win-x64.zip",
+      "hash": "d89a09736c35388a82f9791bce478866b672dc68fd1e7254ee9c4e06a2083a4205b7a87cc0129210989a1a53f544660cc0338ffdfe4cf6a2407ad76180534b68"
     },
     "32bit": {
-      "url": "https://download.microsoft.com/download/A/7/8/A78F1D25-8D5C-4411-B544-C7D527296D5E/dotnet-runtime-2.1.4-win-x86.exe",
-      "hash": "76bc8246a9dcef7fb7486842b405c387abc4558e1fb82d408415904242ce50e387c73be792d4b4e367708f14251e3cf8976c3a9be20d89b09d1944fcddb07859"
+      "url": "https://download.microsoft.com/download/A/7/8/A78F1D25-8D5C-4411-B544-C7D527296D5E/dotnet-runtime-2.1.4-win-x86.zip",
+      "hash": "4e8235d1271e79a2e6ec5f1ceb05a1daa85245529a56764bc4abd84e8483e2d4e739cf2e3efc6a6fa6a6dd94be2d491108ce71b15e1a555df43e3d9349d12c0c"
     }
   },
   "extract_to": "F:\\test"

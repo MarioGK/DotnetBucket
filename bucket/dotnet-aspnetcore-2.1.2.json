@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.microsoft.com/download/1/f/7/1f7755c5-934d-4638-b89f-1f4ffa5afe89/aspnetcore-runtime-2.1.2-win-x64.exe",
-      "hash": "63c8dfc01ff5a3a852a4d2930e185748f534ddc6c8aae96fac1cd6f7780a97aeb7d38a2b7be1f90c61df8bb3ca406cab37c5673676434d3597925ecbd2643276"
+      "url": "https://download.microsoft.com/download/1/f/7/1f7755c5-934d-4638-b89f-1f4ffa5afe89/aspnetcore-runtime-2.1.2-win-x64.zip",
+      "hash": "a9ab3f01fc07527016513f47fc46427f6da8ee45ab847eebe228ca940f00d7b791431295b5aeaf8c8fb07f4ff1d4e8894fb4cfe5c36e74684f08f7d9d15a0e6b"
     },
     "32bit": {
-      "url": "https://download.microsoft.com/download/1/f/7/1f7755c5-934d-4638-b89f-1f4ffa5afe89/aspnetcore-runtime-2.1.2-win-x86.exe",
-      "hash": "cf0f185c906dae5e359f230f2c5bcc65e6f04a3cf6fbac89b79f02ffe2e13f2c4085fb817a7f65038df5884be39057a992b43631d74f52c6d5951861c03f6031"
+      "url": "https://download.microsoft.com/download/1/f/7/1f7755c5-934d-4638-b89f-1f4ffa5afe89/aspnetcore-runtime-2.1.2-win-x86.zip",
+      "hash": "86414db4ce9ca76b3c40649da098fdc8d8e6dd79e4f94ec3a1402eb5506070ca8d9ae571a6845262720d42e5ef35e4ef396a0c01ecaa58fc55bc503c1ab8dd65"
     }
   },
   "extract_to": "F:\\test"

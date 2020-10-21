@@ -5,12 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/ddd9d981-872f-4b62-b942-cfbf9c7e0e60/cbfc51fb841d7398a5ad9acb50d4f8ee/dotnet-runtime-2.1.12-win-x64.exe",
-      "hash": "9739406353CCB1A4BCA78FCAF9D09BBD9C6A9D59EBC8DC36D6FFE4C19568847F2372F75D2D68DC299AB2128A8F89CD35D08FCFA03C1F792ED4E38DF424C12604"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/dcf8c839-2ffd-4677-9b29-4af9c44e170e/59de767034f66051fe6eab61fa757be1/dotnet-runtime-2.1.12-win-x64.zip",
+      "hash": "CE3F8ABD92997645035B7655E9AE61E2023FFC9848B250945E140BFD05C26BEED35982E8F5A5D263BC576112C6F4D3E82B0BEA45BD07D5331F290C1D8D2EB9CE"
     },
     "32bit": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/0fd34b03-08ed-44ec-9761-308717c7fd27/7556f134a19420dbe781b44a13c4d666/dotnet-runtime-2.1.12-win-x86.exe",
-      "hash": "97A7D7A3F7E30B0987CE9E56E102B0601344060749A277E516879AD17C6B4154F2A8E1C7E686843CC1F8C129173BB2062FED4914B91446BDB8498383FA17C3F0"
+      "url": "https://download.visualstudio.microsoft.com/download/pr/3c85a8f2-2d5c-4a42-811b-2e89f04151a8/7583d56dcd286c7112781125c9fca215/dotnet-runtime-2.1.12-win-x86.zip",
+      "hash": "66C9EB59EE72BD53E5D10EB7967A4F347C6349D2E655E758B792CE914E56E541CFA80E9CF8233F0F6414FF1DCE730691FF031437D2590465B075B8972E5DC09C"
     }
   },
   "extract_to": "F:\\test"
