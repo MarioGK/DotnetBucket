@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/D/0/B/D0B7F62D-9C5D-4CF3-AB6C-88F56B4FC1A9/dotnet-runtime-2.1.0-rc1-win-x64.zip",
-      "hash": "781a67337f7717f38f061f623c8491dcb91be58750dcb47c15ef5519ab4be928ce8645500fad67a30026476e64e507d18210aab8f18213ffb48d83e0fa935cf7"
+      "hash": "sha512:781a67337f7717f38f061f623c8491dcb91be58750dcb47c15ef5519ab4be928ce8645500fad67a30026476e64e507d18210aab8f18213ffb48d83e0fa935cf7"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/D/0/B/D0B7F62D-9C5D-4CF3-AB6C-88F56B4FC1A9/dotnet-runtime-2.1.0-rc1-win-x86.zip",
-      "hash": "1a161832ac0ded127b0f4ab36569b5d06cc1681818f72341cc530c4a645d7cc5b21b568c5e07749aa27968982487d9b18aae5e246cbf5ee385a10fc9783520f0"
+      "hash": "sha512:1a161832ac0ded127b0f4ab36569b5d06cc1681818f72341cc530c4a645d7cc5b21b568c5e07749aa27968982487d9b18aae5e246cbf5ee385a10fc9783520f0"
     }
   },
   "extract_to": "F:\\test"

@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/D/7/8/D788D3CD-44C4-487D-829B-413E914FB1C3/dotnet-sdk-2.1.300-preview1-008174-win-x64.zip",
-      "hash": "d1195ec86e745854735c2d8431858987b937963d5b96dd2f1fbecfe8f3b9c4259fbd9454fc7e81542aef117903a0674c7aba242bef3a761a9c8237f71286793f"
+      "hash": "sha512:d1195ec86e745854735c2d8431858987b937963d5b96dd2f1fbecfe8f3b9c4259fbd9454fc7e81542aef117903a0674c7aba242bef3a761a9c8237f71286793f"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/D/7/8/D788D3CD-44C4-487D-829B-413E914FB1C3/dotnet-sdk-2.1.300-preview1-008174-win-x86.zip",
-      "hash": "e1466e7652e7787206c06f2e642f10bf8815a8d02a06b8fb4db7c7941bdb64463c10a4dc1fe59b8c768353404016fa384a00c5b14f228272845f6a75f14f1896"
+      "hash": "sha512:e1466e7652e7787206c06f2e642f10bf8815a8d02a06b8fb4db7c7941bdb64463c10a4dc1fe59b8c768353404016fa384a00c5b14f228272845f6a75f14f1896"
     }
   },
   "extract_to": "F:\\test"

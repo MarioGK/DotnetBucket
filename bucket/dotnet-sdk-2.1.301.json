@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/D/0/4/D04C5489-278D-4C11-9BD3-6128472A7626/dotnet-sdk-2.1.301-win-x64.zip",
-      "hash": "f2f6cc020f89dc4d4f8064cc914cffabde0ce422715138778a6bcbbb6803ca66d6fd967097a0209c47c89b85dd9e93db48486ac86999bd3a533e45b789fcea89"
+      "hash": "sha512:f2f6cc020f89dc4d4f8064cc914cffabde0ce422715138778a6bcbbb6803ca66d6fd967097a0209c47c89b85dd9e93db48486ac86999bd3a533e45b789fcea89"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/D/0/4/D04C5489-278D-4C11-9BD3-6128472A7626/dotnet-sdk-2.1.301-win-x86.zip",
-      "hash": "237a0a980d8bcdb4d8c9adf7824f9bb9e50da47af224fd291d7667f88efbe7432a66a606ea4fedae018f1a252db938c19bded3d451f7a2fe47b0ba47d0861e9f"
+      "hash": "sha512:237a0a980d8bcdb4d8c9adf7824f9bb9e50da47af224fd291d7667f88efbe7432a66a606ea4fedae018f1a252db938c19bded3d451f7a2fe47b0ba47d0861e9f"
     }
   },
   "extract_to": "F:\\test"

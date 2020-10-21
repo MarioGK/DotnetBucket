@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/95161504-111d-44b6-a769-72c07d7179a7/47fc56c03ee30f612e1e34e1b7430897/dotnet-sdk-5.0.100-preview.6.20318.15-win-x64.zip",
-      "hash": "46ecc1e10aa9c9296675af55fe93bf003d3984b761e1c1d2af823a24b355ca99e0bce9ceb8856ec29ee1c3dd430c01c0b55901a853a1ef763397eadf9045e01e"
+      "hash": "sha512:46ecc1e10aa9c9296675af55fe93bf003d3984b761e1c1d2af823a24b355ca99e0bce9ceb8856ec29ee1c3dd430c01c0b55901a853a1ef763397eadf9045e01e"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/7f2c7990-e7dc-4937-881c-b58e43f24ed0/78c3c9fd17f4f89c7de4a45d9f17dc00/dotnet-sdk-5.0.100-preview.6.20318.15-win-x86.zip",
-      "hash": "231a0fb7b959b8ea90e16fe03806920d6f60dc54eb537698c0acbbd68a30d92bfa1aa31b1c00798d08d2b0b28554907a0f467cda06fa78d398144f2468a596e6"
+      "hash": "sha512:231a0fb7b959b8ea90e16fe03806920d6f60dc54eb537698c0acbbd68a30d92bfa1aa31b1c00798d08d2b0b28554907a0f467cda06fa78d398144f2468a596e6"
     }
   },
   "extract_to": "F:\\test"

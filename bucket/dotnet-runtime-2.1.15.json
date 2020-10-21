@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/0ec339ef-df14-4b42-804a-46d776a70886/7010c6bb774ebb437deab0fc21ed6428/dotnet-runtime-2.1.15-win-x64.zip",
-      "hash": "f0f1c33801cfb9724bedec24b4e648aa47fae85c2229ddbf5b00ed45383def41cefa55775c65f349adda5388509ce38ca63c0373ef50073971f283a88908ba7d"
+      "hash": "sha512:f0f1c33801cfb9724bedec24b4e648aa47fae85c2229ddbf5b00ed45383def41cefa55775c65f349adda5388509ce38ca63c0373ef50073971f283a88908ba7d"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/07f587cb-fb85-445d-818d-0b11771cdf5b/0185a27025624277fc3c2d053cd536e4/dotnet-runtime-2.1.15-win-x86.zip",
-      "hash": "2f7bc30b73c7c2e1618f63699c96a875845e6de6303c3623fca58dafab264e23a4ff117415ad3e2e4eeb098e7dd07393141f32a502bf7090241421bf3881d29e"
+      "hash": "sha512:2f7bc30b73c7c2e1618f63699c96a875845e6de6303c3623fca58dafab264e23a4ff117415ad3e2e4eeb098e7dd07393141f32a502bf7090241421bf3881d29e"
     }
   },
   "extract_to": "F:\\test"

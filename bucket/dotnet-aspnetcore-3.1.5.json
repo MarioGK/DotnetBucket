@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/b5d221a7-f799-4ac2-9da9-26855a6778c1/7eefcd7210b825b98c4ad14190075f70/aspnetcore-runtime-3.1.5-win-x64.zip",
-      "hash": "e71f865cbd25f03d6975991da488ade449f315d71e1bdab50d2737a6e6f458ecbfe90addf44f24b56117af484175b6cd2f91d9583005167ea70e35be3e85cb34"
+      "hash": "sha512:e71f865cbd25f03d6975991da488ade449f315d71e1bdab50d2737a6e6f458ecbfe90addf44f24b56117af484175b6cd2f91d9583005167ea70e35be3e85cb34"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/7e417328-ef5b-4584-96c6-feaadcb8da80/e5c2f428da51907d6a2c6abc35fa172a/aspnetcore-runtime-3.1.5-win-x86.zip",
-      "hash": "d322d5a460f32e24df9d7da5c923bd72c14890625de2ebd5ee3bd50dd884e3b0867354e70cbb80bee8f5344ee98107d85d6b7585d6be247c3f81a99fb3a3d94b"
+      "hash": "sha512:d322d5a460f32e24df9d7da5c923bd72c14890625de2ebd5ee3bd50dd884e3b0867354e70cbb80bee8f5344ee98107d85d6b7585d6be247c3f81a99fb3a3d94b"
     }
   },
   "extract_to": "F:\\test"

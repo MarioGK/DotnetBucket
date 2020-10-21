@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/9/0/F/90F8F18D-CD21-4A79-ACDC-AF4CB95F490C/dotnet-runtime-2.1.0-preview2-26406-04-win-x64.zip",
-      "hash": "eabf2cb0fbaa096739b5e25fb43ebe7b3a8a62756e25cdccf740658a0b7d1166259645c61f8c6e5c1c3577d440ee6285c9ce504ad6b9f66ba9d7fd71c211bd1a"
+      "hash": "sha512:eabf2cb0fbaa096739b5e25fb43ebe7b3a8a62756e25cdccf740658a0b7d1166259645c61f8c6e5c1c3577d440ee6285c9ce504ad6b9f66ba9d7fd71c211bd1a"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/9/0/F/90F8F18D-CD21-4A79-ACDC-AF4CB95F490C/dotnet-runtime-2.1.0-preview2-26406-04-win-x86.zip",
-      "hash": "46816c29827516328f39147b5bf52f8f1786e8f58e3628ee02bdf5b080f7420e62b57751a9fb16caec8f4de41766be28693f29e42d5de1eae722938def6780ec"
+      "hash": "sha512:46816c29827516328f39147b5bf52f8f1786e8f58e3628ee02bdf5b080f7420e62b57751a9fb16caec8f4de41766be28693f29e42d5de1eae722938def6780ec"
     }
   },
   "extract_to": "F:\\test"

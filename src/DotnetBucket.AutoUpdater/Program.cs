@@ -134,8 +134,8 @@ namespace DotnetBucket.AutoUpdater
                 License = "MIT",
                 Architecture = new Dictionary<string, Architecture>
                 {
-                    {"64bit", new Architecture{Hash = x64.Hash, Url = x64.Url}},
-                    {"32bit", new Architecture{Hash = x86.Hash, Url = x86.Url}},
+                    {"64bit", new Architecture{Hash = $"sha512:{x64.Hash}", Url = x64.Url}},
+                    {"32bit", new Architecture{Hash = $"sha512:{x86.Hash}", Url = x86.Url}},
                 },
                 /*Bin = "dotnet.exe",
                 EnvAddPath = ".",

@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/9/0/F/90F8F18D-CD21-4A79-ACDC-AF4CB95F490C/aspnetcore-runtime-2.1.0-preview2-final-win-x64.zip",
-      "hash": "5e247e07e29dc6932bdd810911461e78c16d30c5724403953d20971383be06dbed7b579a21a10b0da7d90ada884ef9f2d8a9ea7dfc442bcb4cefbc1a397c00bb"
+      "hash": "sha512:5e247e07e29dc6932bdd810911461e78c16d30c5724403953d20971383be06dbed7b579a21a10b0da7d90ada884ef9f2d8a9ea7dfc442bcb4cefbc1a397c00bb"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/9/0/F/90F8F18D-CD21-4A79-ACDC-AF4CB95F490C/aspnetcore-runtime-2.1.0-preview2-final-win-x86.zip",
-      "hash": "857560b9e780b686e5503d84574da811a302c3f1435d8dc09398b5e28a1cb2b5f82da87fc04ea170e92f37e5bb68f2669d5ff68b8cf64ea10d8f1735bde34cfa"
+      "hash": "sha512:857560b9e780b686e5503d84574da811a302c3f1435d8dc09398b5e28a1cb2b5f82da87fc04ea170e92f37e5bb68f2669d5ff68b8cf64ea10d8f1735bde34cfa"
     }
   },
   "extract_to": "F:\\test"

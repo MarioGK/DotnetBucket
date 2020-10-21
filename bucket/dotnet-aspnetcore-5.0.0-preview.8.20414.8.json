@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/2780db17-a008-43c8-bb6d-d3839898360a/5c96823c59ced4784a2f66d61aca62d1/aspnetcore-runtime-5.0.0-preview.8.20414.8-win-x64.zip",
-      "hash": "63badf80f0faf78ed6d4667cf832df48961d6b970b01439d029c17dc6391ddd435e11cda4d26abafc2823ed7dce6a5545a7b07d0fabd60fb518208403c3f80a8"
+      "hash": "sha512:63badf80f0faf78ed6d4667cf832df48961d6b970b01439d029c17dc6391ddd435e11cda4d26abafc2823ed7dce6a5545a7b07d0fabd60fb518208403c3f80a8"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/605e68c5-31b5-4005-b198-54567bb25f5b/e8fd589883e65381fe3f3761acc47b8d/aspnetcore-runtime-5.0.0-preview.8.20414.8-win-x86.zip",
-      "hash": "52a1b25442330b044340d0f554da0fb63035d87f84262d77d63af95918381b4c466124aeb5a255fe34ba2bbd77523366e86892910ba749c51c54674cb2af69da"
+      "hash": "sha512:52a1b25442330b044340d0f554da0fb63035d87f84262d77d63af95918381b4c466124aeb5a255fe34ba2bbd77523366e86892910ba749c51c54674cb2af69da"
     }
   },
   "extract_to": "F:\\test"

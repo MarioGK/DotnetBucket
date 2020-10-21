@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.microsoft.com/download/3/7/C/37C0D2E3-2056-4F9A-A67C-14DEFBD70F06/dotnet-sdk-2.1.300-preview2-008533-win-x64.zip",
-      "hash": "e2858d0809cd727ef361ecd192cc79208bfb04b258b1c7375c4a8fc34b897a4d0f244c67744f2c4154c1b8cf47cff4f656b70357f8c2d06c30058e82d115ef46"
+      "hash": "sha512:e2858d0809cd727ef361ecd192cc79208bfb04b258b1c7375c4a8fc34b897a4d0f244c67744f2c4154c1b8cf47cff4f656b70357f8c2d06c30058e82d115ef46"
     },
     "32bit": {
       "url": "https://download.microsoft.com/download/3/7/C/37C0D2E3-2056-4F9A-A67C-14DEFBD70F06/dotnet-sdk-2.1.300-preview2-008533-win-x86.zip",
-      "hash": "fb906747d1bd7258eb803fae29256de02c1ca92d48041142cfc3a64feb5a36e7a91a04ffe12b407a2a67e003ae621a6181313a1f8833ce48417c7d2aa76c2566"
+      "hash": "sha512:fb906747d1bd7258eb803fae29256de02c1ca92d48041142cfc3a64feb5a36e7a91a04ffe12b407a2a67e003ae621a6181313a1f8833ce48417c7d2aa76c2566"
     }
   },
   "extract_to": "F:\\test"

@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/12c4e2f0-eda2-42ca-908e-fcdb68550a5f/ca19066eba7c09b8c781ae7a84a7ba8d/dotnet-runtime-3.1.2-win-x64.zip",
-      "hash": "2986d9f04640115cfa1ec478ac20d8e5c0f3b57f1d4e379300dfbafe8d20ec775ea1987045d611a1b2d786de7e1981c57ef52824a9d8dda64e1570379187b23f"
+      "hash": "sha512:2986d9f04640115cfa1ec478ac20d8e5c0f3b57f1d4e379300dfbafe8d20ec775ea1987045d611a1b2d786de7e1981c57ef52824a9d8dda64e1570379187b23f"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/541f44b0-cda8-4559-9cff-860fca619767/599bc8f47a85a5c2892d3540c7b7dd6f/dotnet-runtime-3.1.2-win-x86.zip",
-      "hash": "7953ecd94bb63daef62da544930f7e16ce4fc3da1bcaf62ed98b146315579fcf05f8a1d3e323217489cb1ca0f6b1721353575ff01be9afa4651e42565445d3f8"
+      "hash": "sha512:7953ecd94bb63daef62da544930f7e16ce4fc3da1bcaf62ed98b146315579fcf05f8a1d3e323217489cb1ca0f6b1721353575ff01be9afa4651e42565445d3f8"
     }
   },
   "extract_to": "F:\\test"

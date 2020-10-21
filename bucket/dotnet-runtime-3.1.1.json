@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/d9768135-4646-4839-9eea-b404bb940452/8275e4320514bab636b1627c62906ef9/dotnet-runtime-3.1.1-win-x64.zip",
-      "hash": "1d1dd4a3fe49154b402f1836ffb6463ada19833fbeeac4e07da96665d970b19c5d37a188f2b6cb691322a65c7e3587295764129bcd93be799776c2ca849959c8"
+      "hash": "sha512:1d1dd4a3fe49154b402f1836ffb6463ada19833fbeeac4e07da96665d970b19c5d37a188f2b6cb691322a65c7e3587295764129bcd93be799776c2ca849959c8"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/6637dee6-b81a-411b-a33e-7897c0c8fdbe/4bfe2ac2494f07fcc7659699bd8ada31/dotnet-runtime-3.1.1-win-x86.zip",
-      "hash": "583bafaa85f6d6709c21093bcbe4ad0dac77986298593c3c128abb5aebb532a9b0c708ae4d113f7de52aa06f1332b1a75d13ace10477981d42e09858973955d3"
+      "hash": "sha512:583bafaa85f6d6709c21093bcbe4ad0dac77986298593c3c128abb5aebb532a9b0c708ae4d113f7de52aa06f1332b1a75d13ace10477981d42e09858973955d3"
     }
   },
   "extract_to": "F:\\test"

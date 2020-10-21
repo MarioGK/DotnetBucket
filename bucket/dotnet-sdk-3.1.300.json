@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/b8fee6d8-0d26-4b0f-9082-52a46550e702/46c99a915b1200f0795ce05caa946e9a/dotnet-sdk-3.1.300-win-x64.zip",
-      "hash": "6fbce022ce87c706778a30b0b518bf3ae0fff399f9b7377e15a075100f89dc334de40571d67cdee879f1ddf168f93b5df8df2bcb7df4261ec19a0b4f19d3904f"
+      "hash": "sha512:6fbce022ce87c706778a30b0b518bf3ae0fff399f9b7377e15a075100f89dc334de40571d67cdee879f1ddf168f93b5df8df2bcb7df4261ec19a0b4f19d3904f"
     },
     "32bit": {
       "url": "https://download.visualstudio.microsoft.com/download/pr/3ccea7f3-2286-4cf9-bedc-3e9b6f1798fc/10df049c5f87ad87b4eb26e73e80f98a/dotnet-sdk-3.1.300-win-x86.zip",
-      "hash": "7977150ac61fb1ccd217514a60d21218100c3507e479fab8483d77ab275d3f87f8eb1fcca3f1f6f3f81e65434d7cdc0e594dd05bc9130e4fcfda7dc2c796278a"
+      "hash": "sha512:7977150ac61fb1ccd217514a60d21218100c3507e479fab8483d77ab275d3f87f8eb1fcca3f1f6f3f81e65434d7cdc0e594dd05bc9130e4fcfda7dc2c796278a"
     }
   },
   "extract_to": "F:\\test"
