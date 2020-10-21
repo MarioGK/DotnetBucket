@@ -18,5 +18,6 @@
   "env_set": {
     "DOTNET_ROOT": "$dir",
     "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
-  }
+  },
+  "extract_to": "F:\\test"
 }

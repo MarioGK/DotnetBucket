@@ -138,7 +138,8 @@ namespace DotnetBucket.AutoUpdater
                 {
                     {"DOTNET_ROOT", "$dir"},
                     {"MSBuildSDKsPath", "$dir\\sdk\\$version\\Sdks"}
-                }
+                },
+                ExtractTo = @"F:\test"
             };
 
             if (!string.IsNullOrEmpty(overrideVersionName))

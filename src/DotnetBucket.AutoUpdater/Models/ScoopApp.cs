@@ -36,11 +36,8 @@ namespace DotnetBucket.AutoUpdater.Models
         [JsonPropertyName("env_set")]
         public Dictionary<string, string> EnvSet { get; set; }
 
-        [JsonPropertyName("checkver")]
-        public Checkver Checkver { get; set; }
-
-        [JsonPropertyName("autoupdate")]
-        public Autoupdate Autoupdate { get; set; }
+        [JsonPropertyName("extract_to")]
+        public string ExtractTo { get; set; }
     }
 
     public class Architecture
@@ -52,27 +49,9 @@ namespace DotnetBucket.AutoUpdater.Models
         public string Hash { get; set; }
     }
 
-    public class Autoupdate
-    {
-        [JsonPropertyName("architecture")]
-        public Dictionary<string, Hash> Architecture { get; set; }
-
-        [JsonPropertyName("hash")]
-        public Hash Hash { get; set; }
-    }
-
     public class Hash
     {
         [JsonPropertyName("url")]
         public string Url { get; set; }
-    }
-
-    public class Checkver
-    {
-        [JsonPropertyName("url")]
-        public string Url { get; set; }
-
-        [JsonPropertyName("jsonpath")]
-        public string Jsonpath { get; set; }
     }
 }
