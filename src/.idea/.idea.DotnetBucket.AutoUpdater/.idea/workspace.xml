@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09351b4e-b42a-434a-89b7-e61a7d0dd526" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/.idea/.idea.DotnetBucket.AutoUpdater/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater/Models/ReleaseInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater/Models/Releases.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/DotnetBucket.AutoUpdater/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DotnetBucket.AutoUpdater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotnetBucket.AutoUpdater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ReleaseInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ReleaseInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,7 @@
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/Release.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/Releases.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ReleaseInfo.cs" />
+      <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" />
     </changedPaths>
   </component>
@@ -51,6 +42,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602987981551</updated>
       <workItem from="1602987998558" duration="662000" />
-      <workItem from="1603241382779" duration="25000" />
+      <workItem from="1603241382779" duration="3514000" />
     </task>
     <servers />
   </component>

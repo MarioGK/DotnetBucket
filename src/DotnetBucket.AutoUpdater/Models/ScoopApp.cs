@@ -6,11 +6,17 @@ namespace DotnetBucket.AutoUpdater.Models
 {
     public class ScoopApp
     {
+        [JsonIgnore]
+        public string Type { get; set; }
+        
+        [JsonIgnore]
+        public string OverrideVersioName { get; set; }
+        
         [JsonPropertyName("version")]
         public string Version { get; set; }
 
         [JsonPropertyName("homepage")]
-        public Uri Homepage { get; set; }
+        public string Homepage { get; set; }
 
         [JsonPropertyName("description")]
         public string Description { get; set; }
@@ -28,7 +34,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public string EnvAddPath { get; set; }
 
         [JsonPropertyName("env_set")]
-        public EnvSet EnvSet { get; set; }
+        public Dictionary<string, string> EnvSet { get; set; }
 
         [JsonPropertyName("checkver")]
         public Checkver Checkver { get; set; }
@@ -40,7 +46,7 @@ namespace DotnetBucket.AutoUpdater.Models
     public class Architecture
     {
         [JsonPropertyName("url")]
-        public Uri Url { get; set; }
+        public string Url { get; set; }
 
         [JsonPropertyName("hash")]
         public string Hash { get; set; }
@@ -58,24 +64,15 @@ namespace DotnetBucket.AutoUpdater.Models
     public class Hash
     {
         [JsonPropertyName("url")]
-        public Uri Url { get; set; }
+        public string Url { get; set; }
     }
 
     public class Checkver
     {
         [JsonPropertyName("url")]
-        public Uri Url { get; set; }
+        public string Url { get; set; }
 
         [JsonPropertyName("jsonpath")]
         public string Jsonpath { get; set; }
-    }
-
-    public class EnvSet
-    {
-        [JsonPropertyName("DOTNET_ROOT")]
-        public string DotnetRoot { get; set; }
-
-        [JsonPropertyName("MSBuildSDKsPath")]
-        public string MsBuildSdKsPath { get; set; }
     }
 }

@@ -43,10 +43,10 @@ namespace DotnetBucket.AutoUpdater.Models
         public string VersionDisplay { get; set; }
 
         [JsonPropertyName("files")]
-        public List<File> Files { get; set; }
+        public List<DotnetFile> Files { get; set; }
     }
 
-    public class File
+    public class DotnetFile
     {
         [JsonPropertyName("name")]
         public string Name { get; set; }
@@ -55,7 +55,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public string Rid { get; set; }
 
         [JsonPropertyName("url")]
-        public Uri Url { get; set; }
+        public string Url { get; set; }
 
         [JsonPropertyName("hash")]
         public string Hash { get; set; }
@@ -79,16 +79,13 @@ namespace DotnetBucket.AutoUpdater.Models
         public Uri ReleaseNotes { get; set; }
 
         [JsonPropertyName("runtime")]
-        public Runtime Runtime { get; set; }
+        public FilesInfo Runtime { get; set; }
 
         [JsonPropertyName("sdk")]
-        public Sdk Sdk { get; set; }
-
-        [JsonPropertyName("sdks")]
-        public List<Sdk> Sdks { get; set; }
+        public FilesInfo Sdk { get; set; }
 
         [JsonPropertyName("aspnetcore-runtime")]
-        public AspnetcoreRuntime AspnetcoreRuntime { get; set; }
+        public FilesInfo AspnetcoreRuntime { get; set; }
 
         [JsonPropertyName("windowsdesktop")]
         public Intellisense Windowsdesktop { get; set; }
@@ -97,76 +94,14 @@ namespace DotnetBucket.AutoUpdater.Models
         public Symbols Symbols { get; set; }
     }
 
-    public class AspnetcoreRuntime
+    public class FilesInfo
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
-
-        [JsonPropertyName("version-display")]
-        public string VersionDisplay { get; set; }
-
-        [JsonPropertyName("version-aspnetcoremodule")]
-        public List<string> VersionAspnetcoremodule { get; set; }
-
-        [JsonPropertyName("vs-version")]
-        public string VsVersion { get; set; }
+        
 
         [JsonPropertyName("files")]
-        public List<File> Files { get; set; }
-    }
-
-    public class Runtime
-    {
-        [JsonPropertyName("version")]
-        public string Version { get; set; }
-
-        [JsonPropertyName("version-display")]
-        public string VersionDisplay { get; set; }
-
-        [JsonPropertyName("vs-version")]
-        public string VsVersion { get; set; }
-
-        [JsonPropertyName("vs-mac-version")]
-        public string VsMacVersion { get; set; }
-
-        [JsonPropertyName("files")]
-        public List<File> Files { get; set; }
-    }
-
-    public class Sdk
-    {
-        [JsonPropertyName("version")]
-        public string Version { get; set; }
-
-        [JsonPropertyName("version-display")]
-        public string VersionDisplay { get; set; }
-
-        [JsonPropertyName("runtime-version")]
-        public string RuntimeVersion { get; set; }
-
-        [JsonPropertyName("vs-version")]
-        public string VsVersion { get; set; }
-
-        [JsonPropertyName("vs-mac-version")]
-        public string VsMacVersion { get; set; }
-
-        [JsonPropertyName("vs-support")]
-        public string VsSupport { get; set; }
-
-        [JsonPropertyName("vs-mac-support")]
-        public string VsMacSupport { get; set; }
-
-        [JsonPropertyName("csharp-version")]
-        public string CSharpVersion { get; set; }
-
-        [JsonPropertyName("fsharp-version")]
-        public string FSharpVersion { get; set; }
-
-        [JsonPropertyName("vb-version")]
-        public string VbVersion { get; set; }
-
-        [JsonPropertyName("files")]
-        public List<File> Files { get; set; }
+        public List<DotnetFile> Files { get; set; }
     }
 
     public class Symbols

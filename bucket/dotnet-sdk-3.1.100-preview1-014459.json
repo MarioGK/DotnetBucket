@@ -1,0 +1,22 @@
+{
+  "version": "3.1.100-preview1-014459",
+  "homepage": "https://www.microsoft.com/net/",
+  "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.visualstudio.microsoft.com/download/pr/3c80ce15-78a4-402c-a887-58119f2546b5/4bf7731ac1f278d7c8c9e30c81629316/dotnet-sdk-3.1.100-preview1-014459-win-x64.exe",
+      "hash": "3df7033d07fd95ace436541f6a8ae5e65d9b982b3bb10dce2544af46a0eb164867ef6015539a24c636554fc99596cb30631dcbc0b396cf8a487593a1cc4c375d"
+    },
+    "32bit": {
+      "url": "https://download.visualstudio.microsoft.com/download/pr/0f899d0e-8403-448d-b206-5bacbed34b46/5394c8fc72225aebce4a022c2469bb7b/dotnet-sdk-3.1.100-preview1-014459-win-x86.exe",
+      "hash": "824f4659eb5011128b97c7de9609d5a849d3d6bd232352d129f5ad0363cde98f3d51adbd86084abb432f8d593f1e25b07c261f1ecdcde72b3327a6c57f62b323"
+    }
+  },
+  "bin": "dotnet.exe",
+  "env_add_path": ".",
+  "env_set": {
+    "DOTNET_ROOT": "$dir",
+    "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
+  }
+}
