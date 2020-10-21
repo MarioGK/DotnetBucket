@@ -132,13 +132,13 @@ namespace DotnetBucket.AutoUpdater
                     {"64bit", new Architecture{Hash = x64.Hash, Url = x64.Url}},
                     {"32bit", new Architecture{Hash = x86.Hash, Url = x86.Url}},
                 },
-                Bin = "dotnet.exe",
+                /*Bin = "dotnet.exe",
                 EnvAddPath = ".",
                 EnvSet = new Dictionary<string, string>
                 {
                     {"DOTNET_ROOT", "$dir"},
                     {"MSBuildSDKsPath", "$dir\\sdk\\$version\\Sdks"}
-                },
+                },*/
                 ExtractTo = @"F:\test"
             };
 
