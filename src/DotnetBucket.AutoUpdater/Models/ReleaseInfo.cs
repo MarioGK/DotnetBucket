@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace DotnetBucket.AutoUpdater.Models
 {
-    public partial class ReleaseInfo
+    public class ReleaseInfo
     {
         [JsonPropertyName("channel-version")]
         public string ChannelVersion { get; set; }
@@ -34,7 +34,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public Intellisense Intellisense { get; set; }
     }
 
-    public partial class Intellisense
+    public class Intellisense
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
@@ -46,7 +46,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public List<File> Files { get; set; }
     }
 
-    public partial class File
+    public class File
     {
         [JsonPropertyName("name")]
         public string Name { get; set; }
@@ -64,7 +64,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public Uri Akams { get; set; }
     }
 
-    public partial class Release
+    public class Release
     {
         [JsonPropertyName("release-date")]
         public DateTimeOffset ReleaseDate { get; set; }
@@ -97,7 +97,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public Symbols Symbols { get; set; }
     }
 
-    public partial class AspnetcoreRuntime
+    public class AspnetcoreRuntime
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
@@ -115,7 +115,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public List<File> Files { get; set; }
     }
 
-    public partial class Runtime
+    public class Runtime
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
@@ -133,7 +133,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public List<File> Files { get; set; }
     }
 
-    public partial class Sdk
+    public class Sdk
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
@@ -169,7 +169,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public List<File> Files { get; set; }
     }
 
-    public partial class Symbols
+    public class Symbols
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }

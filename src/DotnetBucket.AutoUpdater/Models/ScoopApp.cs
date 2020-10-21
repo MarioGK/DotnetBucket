@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace DotnetBucket.AutoUpdater.Models
 {
-    public partial class ScoopApp
+    public class ScoopApp
     {
         [JsonPropertyName("version")]
         public string Version { get; set; }
@@ -37,7 +37,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public Autoupdate Autoupdate { get; set; }
     }
 
-    public partial class Architecture
+    public class Architecture
     {
         [JsonPropertyName("url")]
         public Uri Url { get; set; }
@@ -46,7 +46,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public string Hash { get; set; }
     }
 
-    public partial class Autoupdate
+    public class Autoupdate
     {
         [JsonPropertyName("architecture")]
         public Dictionary<string, Hash> Architecture { get; set; }
@@ -55,13 +55,13 @@ namespace DotnetBucket.AutoUpdater.Models
         public Hash Hash { get; set; }
     }
 
-    public partial class Hash
+    public class Hash
     {
         [JsonPropertyName("url")]
         public Uri Url { get; set; }
     }
 
-    public partial class Checkver
+    public class Checkver
     {
         [JsonPropertyName("url")]
         public Uri Url { get; set; }
@@ -70,7 +70,7 @@ namespace DotnetBucket.AutoUpdater.Models
         public string Jsonpath { get; set; }
     }
 
-    public partial class EnvSet
+    public class EnvSet
     {
         [JsonPropertyName("DOTNET_ROOT")]
         public string DotnetRoot { get; set; }

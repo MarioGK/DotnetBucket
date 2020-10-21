@@ -35,7 +35,7 @@ namespace DotnetBucket.AutoUpdater
 
             }
             
-            Console.WriteLine(releasesRaw);
+            
 
             Console.Read();
         }
