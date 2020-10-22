@@ -38,6 +38,9 @@ namespace DotnetBucket.AutoUpdater.Models
 
         [JsonPropertyName("extract_to")]
         public string ExtractTo { get; set; }
+
+        [JsonPropertyName("post_install")]
+        public string PostInstall { get; set; }
     }
 
     public class Architecture

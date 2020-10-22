@@ -13,5 +13,10 @@
       "hash": "sha512:49d153656f367287b2763b74782fbec96a4391da067a6533d44b3ff204aec76cda3b723ce847af3be8f9be1f61b84e06a70ca8f5dc663f0c36b3380f703d223a"
     }
   },
-  "extract_to": "F:\\test"
+  "bin": "dotnet.exe",
+  "env_add_path": ".",
+  "env_set": {
+    "DOTNET_ROOT": "$dir",
+    "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
+  }
 }
