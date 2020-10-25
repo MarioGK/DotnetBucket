@@ -138,12 +138,24 @@ namespace DotnetBucket.AutoUpdater
                     {"32bit", new Architecture{Hash = $"sha512:{x86.Hash}", Url = x86.Url}},
                 },
                 Bin = "dotnet.exe",
-                EnvAddPath = ".",
-                EnvSet = new Dictionary<string, string>
+                //EnvAddPath = ".",
+                /*EnvSet = new Dictionary<string, string>
                 {
                     {"DOTNET_ROOT", "$dir"},
                     {"MSBuildSDKsPath", "$dir\\sdk\\$version\\Sdks"}
+                },*/
+                Depends = "sudo",
+                PostInstall = new List<string>
+                {
+                    @"echo C:\Program Files\dotnet\templates",
                 },
+                Uninstaller = new Installer
+                {
+                    Script = new List<string>
+                    {
+                        ""
+                    }
+                }
                 //ExtractTo = @"F:\test"
             };
 

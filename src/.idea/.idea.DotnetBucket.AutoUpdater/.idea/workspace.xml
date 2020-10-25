@@ -25,8 +25,8 @@
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/Release.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/Releases.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ReleaseInfo.cs" />
-      <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" />
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" />
+      <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j22gnSS6k5Dmi7yJ1t27YUyBhy" />
@@ -84,6 +84,7 @@
       <updated>1602987981551</updated>
       <workItem from="1602987998558" duration="662000" />
       <workItem from="1603241382779" duration="5410000" />
+      <workItem from="1603645938243" duration="2540000" />
     </task>
     <servers />
   </component>
