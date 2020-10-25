@@ -8,8 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09351b4e-b42a-434a-89b7-e61a7d0dd526" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DotnetBucket.AutoUpdater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotnetBucket.AutoUpdater/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/ScoopApp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <updated>1602987981551</updated>
       <workItem from="1602987998558" duration="662000" />
       <workItem from="1603241382779" duration="5410000" />
-      <workItem from="1603645938243" duration="3289000" />
+      <workItem from="1603645938243" duration="3612000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,7 @@
     "echo \u0022C:\\Program Files\\dotnet\\templates\u0022"
   ],
   "post_uninstall": [
-    "echo PostUninstall"
+    "echo \u0022C:\\\\Program Files\\\\dotnet\\\\templatesasdasdas\\\u0022"
   ],
   "depends": "sudo"
 }

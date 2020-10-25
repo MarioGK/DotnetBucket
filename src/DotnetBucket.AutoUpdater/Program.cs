@@ -151,7 +151,7 @@ namespace DotnetBucket.AutoUpdater
                 },
                 PostUninstall = new List<string>
                 {
-                    "echo PostUninstall"
+                    @"echo ""C:\\Program Files\\dotnet\\templatesasdasdas\"""
                 }
                 //ExtractTo = @"F:\test"
             };
