@@ -37,7 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34963325" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -82,7 +82,7 @@
       <updated>1602987981551</updated>
       <workItem from="1602987998558" duration="662000" />
       <workItem from="1603241382779" duration="5410000" />
-      <workItem from="1603645938243" duration="3612000" />
+      <workItem from="1603645938243" duration="4114000" />
     </task>
     <servers />
   </component>
