@@ -18,6 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8E4B4AC-60E7-4BB9-B5C9-B73FF46DCE34/ce/5794c7d7/WebClient.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/DotnetBucket.AutoUpdater/Models/Release.cs" />
@@ -82,7 +85,7 @@
       <updated>1602987981551</updated>
       <workItem from="1602987998558" duration="662000" />
       <workItem from="1603241382779" duration="5410000" />
-      <workItem from="1603645938243" duration="4114000" />
+      <workItem from="1603645938243" duration="4475000" />
     </task>
     <servers />
   </component>
