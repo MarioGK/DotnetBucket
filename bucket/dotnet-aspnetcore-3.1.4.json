@@ -15,12 +15,10 @@
   },
   "bin": "dotnet.exe",
   "post_install": [
-    "echo C:\\Program Files\\dotnet\\templates"
+    "echo \u0022C:\\Program Files\\dotnet\\templates\u0022"
   ],
-  "depends": "sudo",
-  "uninstaller": {
-    "script": [
-      ""
-    ]
-  }
+  "post_uninstall": [
+    "echo PostUninstall"
+  ],
+  "depends": "sudo"
 }

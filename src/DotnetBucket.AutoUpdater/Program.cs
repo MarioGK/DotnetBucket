@@ -147,14 +147,11 @@ namespace DotnetBucket.AutoUpdater
                 Depends = "sudo",
                 PostInstall = new List<string>
                 {
-                    @"echo C:\Program Files\dotnet\templates",
+                    @"echo ""C:\Program Files\dotnet\templates""",
                 },
-                Uninstaller = new Installer
+                PostUninstall = new List<string>
                 {
-                    Script = new List<string>
-                    {
-                        ""
-                    }
+                    "echo PostUninstall"
                 }
                 //ExtractTo = @"F:\test"
             };

@@ -42,6 +42,9 @@ namespace DotnetBucket.AutoUpdater.Models
         [JsonPropertyName("post_install")]
         public List<string> PostInstall { get; set; }
         
+        [JsonPropertyName("post_uninstall")]
+        public List<string> PostUninstall { get; set; }
+        
         [JsonPropertyName("depends")]
         public string Depends { get; set; }
 
