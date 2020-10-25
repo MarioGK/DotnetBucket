@@ -144,12 +144,12 @@ namespace DotnetBucket.AutoUpdater
                     {"DOTNET_ROOT", "$dir"},
                     {"MSBuildSDKsPath", "$dir\\sdk\\$version\\Sdks"}
                 },*/
-                Depends = "sudo",
-                PostInstall = new List<string>
+                Depends = {"sudo", "Dotnet.LinkCreator"},
+                PostInstall =
                 {
                     @"sudo New-Item -Path ""C:\Program Files\dotnet\templates\test$version"" -ItemType SymbolicLink -Value ""$original_dir\templates\$version""",
                 },
-                PostUninstall = new List<string>
+                PostUninstall = 
                 {
                     @"sudo Remove-Item –Path ""C:\Program Files\dotnet\templates\test$version"" -Force"
                 }
