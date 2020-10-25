@@ -15,10 +15,10 @@
   },
   "bin": "dotnet.exe",
   "post_install": [
-    "sudo New-Item -Path \u0022C:\\Program Files\\dotnet\\templates\\test$version\u0022 -ItemType SymbolicLink -Value \u0022$original_dir\u0022"
+    "sudo New-Item -Path \u0022C:\\Program Files\\dotnet\\templates\\test$version\u0022 -ItemType SymbolicLink -Value \u0022$original_dir\u0022\\templates\\$version"
   ],
   "post_uninstall": [
-    "sudo Remove-Item \u2013path \u0022C:\\Program Files\\dotnet\\templates\\test$version\u0022"
+    "sudo Remove-Item \u2013Path \u0022C:\\Program Files\\dotnet\\templates\\test$version\u0022 -Force"
   ],
   "depends": "sudo"
 }
