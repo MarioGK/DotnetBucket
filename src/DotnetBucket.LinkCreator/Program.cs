@@ -16,7 +16,16 @@ namespace DotnetBucket.LinkCreator
 
         private static void Main(string[] args)
         {
-            #if !DEBUG
+            switch (args[0])
+            {
+                case "install":
+                    Install(args[1]);
+                    break;
+                case "uninstall":
+                    Uninstall();
+                    break;
+            }
+#if !DEBUG
             if (args.Length == 0)
             {
                 return;
@@ -29,6 +38,11 @@ namespace DotnetBucket.LinkCreator
             var scoopInstallDir = @"C:\Scoop\apps\dotnet-sdk-latest\current";
             #endif
 
+
+        }
+
+        private static void Install(string scoopInstallDir)
+        {
             //Checks if donet folder exists
             if (!Directory.Exists(DotnetFolder))
             {
@@ -70,6 +84,11 @@ namespace DotnetBucket.LinkCreator
                 var cmd = $"/C mklink /D \"{to}\" \"{from}\"";
                 Process.Start("cmd.exe", cmd);
             }
+        }
+
+        public static void Uninstall()
+        {
+            
         }
     }
 }

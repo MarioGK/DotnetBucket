@@ -147,13 +147,12 @@ namespace DotnetBucket.AutoUpdater
                 Depends = {"sudo", "Dotnet.LinkCreator"},
                 PostInstall =
                 {
-                    @"sudo New-Item -Path ""C:\Program Files\dotnet\templates\test$version"" -ItemType SymbolicLink -Value ""$original_dir\templates\$version""",
+                    @"sudo Dotnet.LinkCreator ""Path""",
                 },
                 PostUninstall = 
                 {
                     @"sudo Remove-Item –Path ""C:\Program Files\dotnet\templates\test$version"" -Force"
                 }
-                //ExtractTo = @"F:\test"
             };
 
             if (!string.IsNullOrEmpty(overrideVersionName))
